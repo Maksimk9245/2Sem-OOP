@@ -67,3 +67,4 @@ export class Astronaut extends Person {
         return [header, body];
     }
 }
+

@@ -2,8 +2,8 @@ import { Person, Student, Teacher, Astronaut } from "./Entity";
 import * as fs from 'fs/promises';
 
 const people: Person[] = [
-    new Student('Max', 'Tarasov', 2, 'кв№123456', '2006-03-04'),
-    new Student('Anna', 'Ivanova', 3, 'кв№654321', '2005-07-15'),
+    new Student('Maxs', 'Tarasov', 2, 'кв№123456', '2006-03-04'),
+    new Student('Annas', 'Ivanova', 3, 'кв№654321', '2005-07-15'),
     new Student('Oleg', 'Petrov', 3, 'кв№111222', '2005-12-01'),
     new Teacher('Vlad', 'Sudorenko', 'Math'),
     new Astronaut('Olga', 'Serova', 'Mars Mission')
