@@ -1,19 +1,28 @@
 {
   "name": "untitled3",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
+  "description": "Учебный проект на TypeScript с классами Person, Student, Teacher, Astronaut и сервисом FileHandler",
+  "main": "dist/main.js",
   "scripts": {
-    "build": "tsc"
+    "dev": "ts-node src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "clean": "rimraf dist"
   },
   "devDependencies": {
     "@types/node": "^24.5.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "rimraf": "^5.0.10"
   },
   "private": true,
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "typescript",
+    "oop",
+    "students",
+    "filehandler"
+  ],
+  "author": "Максим Балацький",
   "license": "ISC",
   "type": "commonjs"
 }
