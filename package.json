@@ -4,9 +4,12 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev:lab3": "ts-node src/lab3/app/index.ts",
+    "start:lab3": "node dist/lab3/app/index.js"
   },
   "devDependencies": {
+    "@types/node": "^24.9.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   },

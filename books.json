@@ -1,0 +1,30 @@
+[
+  {
+    "serialNumber": "asdasd",
+    "title": "asdasdasd",
+    "year": 2012,
+    "price": 1000,
+    "count": 10
+  },
+  {
+    "serialNumber": "1234",
+    "title": "aspods",
+    "year": 123,
+    "price": 129279.15,
+    "count": 6456
+  },
+  {
+    "serialNumber": "121312fdvdfvfdv",
+    "title": "12312312353cvfd",
+    "year": null,
+    "price": 123,
+    "count": null
+  },
+  {
+    "serialNumber": "udvnsfiofuosd",
+    "title": " vsdufssvdois",
+    "year": 35,
+    "price": 6,
+    "count": null
+  }
+]
