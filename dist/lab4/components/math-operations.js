@@ -2,9 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MathOperations = void 0;
 class MathOperations {
-    constructor() {
-        this.integerDivisionHandlers = [];
-    }
+    integerDivisionHandlers = [];
     add(a, b) { return a + b; }
     subtract(a, b) { return a - b; }
     multiply(a, b) { return a * b; }

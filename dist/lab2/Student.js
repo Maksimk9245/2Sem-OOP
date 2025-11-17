@@ -2,6 +2,11 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Student = void 0;
 class Student {
+    studentId;
+    fullName;
+    birthYear;
+    groupNumber;
+    course;
     constructor(studentId, fullName, birthYear, groupNumber, course) {
         this.studentId = studentId;
         this.fullName = fullName;

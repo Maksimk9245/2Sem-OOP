@@ -3,9 +3,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.BinaryTree = void 0;
 const Node_1 = require("./Node");
 class BinaryTree {
+    compareFn;
+    root = null;
     constructor(compareFn) {
         this.compareFn = compareFn;
-        this.root = null;
     }
     insert(data) {
         this.root = this.insertRecursive(this.root, data);

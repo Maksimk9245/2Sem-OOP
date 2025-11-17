@@ -2,10 +2,11 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Node = void 0;
 class Node {
+    data;
+    left = null;
+    right = null;
     constructor(data) {
         this.data = data;
-        this.left = null;
-        this.right = null;
         this.data = data;
     }
 }

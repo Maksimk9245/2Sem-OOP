@@ -4,9 +4,10 @@ exports.EntityService = void 0;
 const mapping_1 = require("../../shared/utils/mapping");
 const DomainErrors_1 = require("../errors/DomainErrors");
 class EntityService {
+    context;
+    books = [];
     constructor(context) {
         this.context = context;
-        this.books = [];
     }
     add(book) {
         if (this.books.find((b) => b.serialNumber === book.serialNumber)) {

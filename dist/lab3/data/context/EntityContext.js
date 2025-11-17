@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.EntityContext = void 0;
 class EntityContext {
+    provider;
     constructor(provider) {
         this.provider = provider;
     }

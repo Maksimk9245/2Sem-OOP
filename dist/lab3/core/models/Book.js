@@ -2,6 +2,11 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Book = void 0;
 class Book {
+    serialNumber;
+    title;
+    year;
+    price;
+    count;
     constructor(serialNumber, title, year, price, count) {
         this.serialNumber = serialNumber;
         this.title = title;

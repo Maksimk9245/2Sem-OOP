@@ -10,11 +10,12 @@ const EntityService_1 = require("../../core/services/EntityService");
 const EntityContext_1 = require("../../data/context/EntityContext");
 const JsonProvider_1 = require("../../data/providers/JsonProvider");
 class Menu {
+    rl = readline_1.default.createInterface({
+        input: process.stdin,
+        output: process.stdout,
+    });
+    service;
     constructor() {
-        this.rl = readline_1.default.createInterface({
-            input: process.stdin,
-            output: process.stdout,
-        });
         const context = new EntityContext_1.EntityContext(new JsonProvider_1.JsonProvider());
         this.service = new EntityService_1.EntityService(context);
     }
